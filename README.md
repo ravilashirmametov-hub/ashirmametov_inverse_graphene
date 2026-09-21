@@ -11,6 +11,10 @@ Structure of the repository:
 '\examples' - contains the label encoded vector and lammps compatible .data file for three reported cases of the optimized graphene structure (reported in the article);
 '\models' - contains the hyperparameters of the optimized regression models used for the inverse design of mixed-family graphene.
 
+Software requirements:
+1. MATLAB R2026a Update 3 (26.1.0.3276743)
+2. 
+
 
 Datasets are structured as follows:
   For Label encoding:
@@ -50,3 +54,9 @@ Samples of the LAMMPS scripts are as follows:
   1 thermal sample script with graphene functionalized with 3% ethyl and 5% hydrogen. This input file generates a log.lammps file from which we extract thermal conductivity.
 
 To go from integer (Label) encoding to lammps data file and vice versa please see our previous related article https://pubs.rsc.org/ra/article/15/52/44423/908886/Determining-the-structure-of-functionalized
+
+
+License
+
+Code in this repository is released under the MIT License.
+Dataset licensing: [CC BY 4.0].
