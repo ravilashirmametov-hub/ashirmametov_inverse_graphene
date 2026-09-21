@@ -12,8 +12,10 @@ Structure of the repository:
 '\models' - contains the hyperparameters of the optimized regression models used for the inverse design of mixed-family graphene.
 
 Software requirements:
-1. MATLAB R2026a Update 3 (26.1.0.3276743)
-2. 
+1. MATLAB R2026a Update 3 (26.1.0.3276743);
+2. Parallel Computing, Optimization, Global Optimization, Deep Learning Toolboxes in MATLAB;
+3. Python 3.12.3
+4. LAMMPS29Aug2024; OpenMPI/5.0.7-GCC-14.2.0; GCC/14.2.0
 
 
 Datasets are structured as follows:
