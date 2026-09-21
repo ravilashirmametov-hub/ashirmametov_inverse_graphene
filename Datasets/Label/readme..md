@@ -1,1 +1,1 @@
-Directory for Label encodings
+Directory for Label encoded datasets
